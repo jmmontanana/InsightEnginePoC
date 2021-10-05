@@ -1,6 +1,37 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);.CoveoSearchInterface.coveo-small-facets .coveo-dropdown-content,.CoveoSearchInterface.coveo-small-recommendation .coveo-dropdown-content,.CoveoSearchInterface.coveo-small-tabs .coveo-dropdown-content {
-    padding: 0
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);/*
+* @param direction vertical or horizontal
+* @param position type of positioning to apply (relative/absolute)
+*/
+
+/*
+* @param $selector css selector on which to apply the icon. Can be '&' if the icon should be applied on the current element;
+* @param $size size of the icon to use
+*/
+
+
+/*   <!-- Style for relocated search box and header -->
+*/
+
+.container {
+    width: 100%;
+    height: 102px;
+    margin: auto;
+    padding: 1px;
+    background-image:url(https://s3.us-east-2.amazonaws.com/gbcimages/stock-chart2.jpg);
 }
+.leftlogo {
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+.CoveoSearchbox {
+    margin-top: 20px;  
+    margin-left: 30%;
+    height: 50px;
+    max-width: 700px;
+}
+
+ 
 
 .CoveoSearchInterface.coveo-small-facets .coveo-dropdown-header,.CoveoSearchInterface.coveo-small-recommendation .coveo-dropdown-header,.CoveoSearchInterface.coveo-small-tabs .coveo-dropdown-header {
     font-size: 12px;
